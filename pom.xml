@@ -22,12 +22,12 @@
         <mybatis.spring.boot.version>1.3.1</mybatis.spring.boot.version>
     </properties>
     <!-- 子模块继承之后, 提供作用: 锁定版本 / 子模块不用写groupId和version -->
-    <!--dependency Management
-        Maven使用 dependency Management元素来提供了一种管理依赖版本号的方式
-        POM中看到 dependency Management
-        使用 pom. xm中的 dependency Management元素能让所有在子项目中引用一个依赖而不用显式的列出版本
-        Maven会沿着父子层次向上走,直到找到一个拥有 dependency Management元素的项目,然后它就会使用这个
-        dependency Management元素中指定的版本号。 -->
+    <!--dependency Management:
+        Maven使用 dependency Management元素来提供了一种管理依赖版本号的方式。通常会在一个组织或者项目的最顶层的父POM中看到。
+        使用dependency Management元素能让所有在子项目中引用一个依赖而不用显式的列出版本号Maven会沿着父子层次向上走,直到找到
+        一个拥有 dependency Management元素的项目,然后它就会使用这个 dependency Management元素中指定的版本号。
+         1） dependencyManagement里只是声明依赖,环不实现引入,因此子项目需要显示的声明需要用的依赖
+         2） 如果不在子项目中声明依赖,是不会从父项目中继承下来的;只有在子项目中写了该依赖项,并且没有指定具体版本,-->
     <dependencyManagement>
         <dependencies>
             <!-- spirng boot 2.2.2 -->
