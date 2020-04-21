@@ -10,6 +10,7 @@
     <modules>
         <module>cloud-pay</module>
         <module>cloud-order</module>
+        <module>cloud-commons</module>
     </modules>
     <packaging>pom</packaging>
 

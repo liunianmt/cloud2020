@@ -18,11 +18,12 @@ import org.springframework.web.client.RestTemplate;
  * @Copyright: Github Copyright (c) 2020
  */
 @RestController
-@RequestMapping(value = "order")
+@RequestMapping(value = "/order")
 @Slf4j
 public class OrderController {
 
     public static final String BASE_URL = "http://localhost:8001/";
+
 
     @Autowired
     private RestTemplate restTemplate;

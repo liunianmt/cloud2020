@@ -12,6 +12,11 @@
     <artifactId>cloud-pay</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.liunian.cloud</groupId>
+            <artifactId>cloud-commons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!--spring-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
