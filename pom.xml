@@ -11,6 +11,7 @@
         <module>cloud-pay</module>
         <module>cloud-order</module>
         <module>cloud-commons</module>
+        <module>cloud-eureka</module>
     </modules>
     <packaging>pom</packaging>
 
