@@ -1,2 +1,15 @@
 server:
   port: 8002
+
+spring:
+  application:
+    name: cloud-order-service
+
+eureka:
+  client:
+    register-with-eureka: true # false表示不向注册中心注册自己
+    # 是否从服务端抓取已有的注册信息, 默认true, 单节点无所谓, 集群必须设置true, 才能配合ribbon使用负载均衡
+    fetch-registry: true
+    service-url:
+      # 设置与eureka server 交互的地址查询服务和注册服务都需要依赖这个地址
+      defaultZone: http://localhost:7001/eureka/
