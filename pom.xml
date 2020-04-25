@@ -12,6 +12,7 @@
         <module>cloud-order</module>
         <module>cloud-commons</module>
         <module>cloud-eureka</module>
+        <module>cloud-eureka-auxiliary</module>
     </modules>
     <packaging>pom</packaging>
 
