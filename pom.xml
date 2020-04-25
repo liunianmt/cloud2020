@@ -13,6 +13,7 @@
         <module>cloud-commons</module>
         <module>cloud-eureka</module>
         <module>cloud-eureka-auxiliary</module>
+        <module>cloud-pay-auxibiary</module>
     </modules>
     <packaging>pom</packaging>
 

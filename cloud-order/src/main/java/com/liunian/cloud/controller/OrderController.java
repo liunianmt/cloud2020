@@ -22,7 +22,9 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 public class OrderController {
 
-    public static final String BASE_URL = "http://localhost:8001/";
+//    public static final String BASE_URL = "http://localhost:8001/";
+
+    public static final String BASE_URL = "http://CLOUD-PAY-SERVICE/";
 
 
     @Autowired

@@ -1,5 +1,5 @@
 server:
-  port: 8002
+  port: 80
 
 spring:
   application:
@@ -12,4 +12,6 @@ eureka:
     fetch-registry: true
     service-url:
       # 设置与eureka server 交互的地址查询服务和注册服务都需要依赖这个地址
-      defaultZone: http://localhost:7001/eureka/
+#      defaultZone: http://localhost:7001/eureka/
+      # 集群配置
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/
