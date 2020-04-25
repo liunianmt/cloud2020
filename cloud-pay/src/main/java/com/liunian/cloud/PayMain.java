@@ -2,6 +2,7 @@ package com.liunian.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @ProjectName: cloud2020
@@ -13,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Copyright: GitHub Copyright (c) 2020
  */
 @SpringBootApplication
+@EnableEurekaClient
 public class PayMain {
 
     public static void main(String[] args) {

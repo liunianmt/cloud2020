@@ -12,11 +12,18 @@
     <artifactId>cloud-pay</artifactId>
 
     <dependencies>
+        <!--其他模块引入-->
         <dependency>
             <groupId>com.liunian.cloud</groupId>
             <artifactId>cloud-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!--eureka client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
         <!--spring-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
