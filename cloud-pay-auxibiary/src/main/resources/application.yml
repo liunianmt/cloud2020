@@ -20,7 +20,11 @@ eureka:
       #defaultZone: http://localhost:7001/eureka/
       # 集群配置
       defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/
-
+  instance:
+    # 配置Eureka显示的服务名称
+    instance-id: physical-machine8002
+    # 配置访问路径可以显示IP地址
+    prefer-ip-address: true
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.liunian.cloud.entities  #所有entity所在包
