@@ -14,6 +14,7 @@
         <module>cloud-eureka</module>
         <module>cloud-eureka-auxiliary</module>
         <module>cloud-pay-auxibiary</module>
+        <module>cloud-pay-consul</module>
     </modules>
     <packaging>pom</packaging>
 
