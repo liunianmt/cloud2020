@@ -8,13 +8,6 @@
     <artifactId>cloud2020</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>cloud-pay</module>
-        <module>cloud-order</module>
-        <module>cloud-commons</module>
-        <module>cloud-eureka</module>
-        <module>cloud-eureka-auxiliary</module>
-        <module>cloud-pay-auxibiary</module>
-        <module>cloud-pay-consul</module>
     </modules>
     <packaging>pom</packaging>
 
